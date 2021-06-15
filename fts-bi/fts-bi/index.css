@@ -1,0 +1,78 @@
+/*
+ * @Author: ningbo.kang | zhewei.zhu
+ * @Date: 2020-10-24 18:09:23
+ * @LastEditors: ningbo.kang
+ * @LastEditTime: 2020-10-26 10:17:12
+ * @Description: 功能描述，通过追加自定义css规则，自适应各种屏幕尺寸下的缩放比例
+ * 实际仅是设置修正各种尺寸下
+*/
+
+@media only screen and (min-width: 300px) {
+  .react-grid-layout {
+    background: red;
+  }
+}
+@media only screen and (min-width: 460px) {
+  .react-grid-layout {
+    background: greenyellow;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  .react-grid-layout {
+    background: green;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .react-grid-layout {
+    transform-origin: left top;
+    transform: scale(calc(952/1920), calc(575/1080));
+  }
+}
+@media only screen and (min-width: 1004px) {
+  .react-grid-layout {
+    transform-origin: left top;
+    transform: scale(calc(996/1920), calc(768/1080));
+  }
+}
+@media only screen and (min-width: 1260px) {
+  .react-grid-layout {
+    transform-origin: left top;
+    transform: scale(calc(1252/1920), calc(720/1080));
+  }
+}
+@media only screen and (min-width: 1346px) {
+  .react-grid-layout {
+    transform-origin: left top;
+    transform: scale(calc(1338/1920), calc(768/1080));
+  }
+}
+@media only screen and (min-width: 1420px) {
+  .react-grid-layout {
+    transform-origin: left top;
+    transform: scale(calc(1412/1920), calc(900/1080));
+  }
+}
+
+@media only screen and (min-width: 1480px) {
+  .react-grid-layout {
+    transform-origin: left top;
+    transform: scale(calc(1472/1920), calc(1000/1080));
+  }
+}
+
+
+@media only screen and (min-width: 1900px) {
+  .react-grid-layout {
+    transform-origin: left top;
+    transform: scale(calc(1892/1920),1);
+  }
+}
+
+
+@media only screen and (min-width: 2540px) {
+  .react-grid-layout {
+    transform-origin: left top;
+    transform: scale(0.7, 0.7);
+  }
+}

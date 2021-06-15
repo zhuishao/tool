@@ -1,0 +1,25 @@
+{
+  "name": "fts-bi",
+  "description": "fts-bi",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "https://fts-dev.group.com/*"
+  ],
+  "content_scripts": [
+    {
+      "css": [
+        "index.css"
+      ],
+      "js": [
+        "index.js"
+      ],
+      "matches": [
+        "https://fts-dev.group.com/*"
+      ]
+    }
+  ]
+}
